@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(26, 26, 26, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    
+
+}
+#taskBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 20px;
+}
+
+
+#logoContainer{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    background: #f4D9D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+    
+}
+#logo{
+
+    height: 110%;
+    width: 160%;
+    border-radius: 50%;
+    background-image: url("logo.jpg");
+    background-size: cover;
+    background-position: center;
+} 
+
+#nav-links{
+
+    display: flex;
+    align-items: center;
+
+}
+
+/* #Home{
+    margin-right:50px;
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: larger;
+    color: #FFF7D1; 
+}
+
+#Service{
+    text-decoration: none;
+    margin-left:100px;
+    font-size: small;
+}
+
+#Login{
+    text-decoration: none;
+    font-size: small;
+    margin-left: 100px ;
+} */
+
+a{
+    margin-left :200px;
+    text-decoration: none;
+    font-size: small;
+    color: #FFF7D1;
+    font-size: medium;
+}
+
+main {
+    padding-top: 85px; /* Add padding to prevent content from overlapping with the fixed header */
+    
+}
+
+#WTE{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: xx-large;
+    
+}
+
+#comment{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: normal;
+}
+
+p{
+    text-align: center;
+
+}
+                /* #DurgaPuja{
+                    height: 150px;
+                    width: 150px;
+                    border: 1px solid black;
+                    margin-left: 30px;
+                    
+                } */
+                 
+#midContent{
+    display: flex;
+    align-items: flex-end;          /* Align content to the bottom */
+    margin-right: 20px;             /* Add space from the right side */
+    margin-bottom: 20px;            /* Add space from the bottom */
+    flex-direction: column;
+    justify-content: flex-start;
+} 
+
+#LpWithPic{
+    display: flex;
+    width: 1200px;
+    background-color: #f7f6f7;
+    flex-direction: row;           /*vertically */
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 100px;
+}
+
+#LP{
+    margin-right: 20px;  
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: xxx-large;
+    font-weight: bold;
+
+}
+
+#MT{
+
+    font-size: large;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+}
+
+#makeuptype{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+
+#bridalBox, #culturalBox, #AirbrushmakeupBox, #HDmakeupBox, #MattemakeupBox, #DewymakeupBox, 
+#MineralmakeupBox, #EditorialmakeupBox, #NaturalmakeupBox, #NudemakeupBox, #SmokeymakeupBox,
+#HDbridalmakeupBox, #EyemakeupBox, #MinimalmakeupBox, #ParaffinpedicureBox, #Frenchpedicure, 
+#Frenchmanicure, #ShortbangsBox, #BridalHairBox {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    height: auto;
+    width: auto;
+    border: 2px solid #c75b7a;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bridal, #cultural, #Airbrushmakeup, #HDmakeup, #Mattemakeup, #Mineralmakeup, #Dewymakeup, 
+#Editorialmakeup, #Naturalmakeup, #Nudemakeup, #Smokeymakeup, #HDbridalmakeup, #Eyemakeup,
+#Minimalmakeup, #Paraffinpedicure, #Frenchpedicure, #Frenchmanicure, #Shortbangs, #BridalHair {
+    font-size: large;
+    font-weight: normal;
+}
+
+#piccontainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+#toprow, #midrow, #bottomrow{
+    display: flex;
+    margin-bottom: 20px;
+
+
+}
+
+#pic1{
+    
+    height: 200px;
+    width: 250px;
+    border: 1px solid block;
+    background-color: #eacdcd;
+    margin-right: 20px;
+    background-image: url(M1.jpg);
+    background-size: cover;
+}
+#pic2{
+    
+    height: 200px;
+    width: 250px;
+    border: 1px solid block;
+    background-color: #eacdcd;
+    margin-right: 20px;
+    background-image: url(M2.jpeg);
+    background-size: cover;
+}
+
+#pic3{
+    
+    height: 200px;
+    width: 250px;
+    border: 1px solid block;
+    background-color: #eacdcd;
+    margin-right: 20px;
+    background-image: url(M3.jpg);
+    background-size: cover;
+}
+#pic4{
+    
+    height: 200px;
+    width: 250px;
+    border: 1px solid block;
+    background-color: #eacdcd;
+    margin-right: 0px;
+    background-image: url(M4.jpg);
+    background-size: cover;
+}
+
+
+#pic5{
+    
+    height: 200px;
+    width: 250px;
+    border: 1px solid block;
+    background-color: #eacdcd;
+    margin-right: 20px;
+    background-image: url(M5.jpeg);
+    background-size: contain;
+}
+
+#pic6{
+    
+    height: 200px;
+    width: 250px;
+    border: 1px solid block;
+    background-color: #eacdcd;
+    margin-right: 0px;
+    background-image: url(M6.jpg);
+    background-size: cover;
+}
+
+#bridalcontent{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#BridalText{
+    font-size: 2rem;
+}
