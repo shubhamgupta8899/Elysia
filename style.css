@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
 header {
     background-color: rgba(26, 26, 26, 0.8);
     position: fixed;
@@ -69,7 +73,7 @@ header {
     margin-left: 100px ;
 } */
 
-a{
+#Home, #Service, #Login{
     margin-left :200px;
     text-decoration: none;
     font-size: small;
@@ -175,6 +179,8 @@ p{
 #Minimalmakeup, #Paraffinpedicure, #Frenchpedicure, #Frenchmanicure, #Shortbangs, #BridalHair {
     font-size: large;
     font-weight: normal;
+    color: black;
+    text-decoration: none;
 }
 
 #piccontainer{
@@ -255,13 +261,216 @@ p{
     background-size: cover;
 }
 
+/* Bridal content */
 #bridalcontent{
 
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
 
 }
 
-#BridalText{
-    font-size: 2rem;
+
+#BridalText {
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
 }
+
+#Bbox {
+    display: flex;
+    flex-wrap: wrap;                                /* Allows the images to wrap on smaller screens */
+    justify-content: center;                        /* Centers the images */
+}
+
+#BbpicwithText1, #BbpicwithText2, #BbpicwithText3{
+    display: flex;
+    align-items: center;                            /* Positions the text at the bottom */
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    height: auto;                                   /* Automatically adjusts the height to keep aspect ratio */
+    border: 2px solid white(205, 194, 194) ;
+    background-color: #f7f6f7;
+    margin: 20px;                                   /* Provides space between the images */
+    border-radius: 20px;
+    padding: 10px 10px;
+    aspect-ratio: 1 / 1.2;                          /* Keeps the box square */
+
+}
+
+#Boldeyes{
+    font-size: xx-large;
+}
+
+#Bpic1, #Bpic2, #Bpic3 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;                /* Automatically adjusts the height to keep aspect ratio */
+    border: 2px solid white;
+    margin: 10px;  
+    margin-top: 10px;             /* Provides space between the images */
+    border-radius: 20px;
+    aspect-ratio: 1 / 1;        /* Keeps the box square */
+    display: flex;
+    justify-content: center;   /* Centers the text/content inside the div */
+    align-items: flex-end;      /* Positions the text at the bottom */
+    flex-direction: column;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+
+#Bpic1{
+
+    background-image: url(B3.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+#Bpic2{
+
+    background-image: url(B1.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+#Bpic3{
+
+    background-image: url(B2.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+
+#Btext1, #Btext2, #Btext3{
+    text-align: start;
+    font-size: large;
+    font-weight: 100;
+    
+}
+#Bbox span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Cultural content */
+#culturalcontent{
+
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+#culturalText {
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#Cbox {
+    display: flex;
+    flex-wrap: wrap;                                /* Allows the images to wrap on smaller screens */
+    justify-content: center;                        /* Centers the images */
+}
+
+#CbpicwithText1, #CbpicwithText2, #CbpicwithText3, #CbpicwithText4, #CbpicwithText5, #CbpicwithText6{
+    display: flex;
+    align-items: center;                            /* Positions the text at the bottom */
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    height: auto;                                   /* Automatically adjusts the height to keep aspect ratio */
+    border: 2px solid white(205, 194, 194) ;
+    background-color: #f7f6f7;
+    margin: 20px;                                   /* Provides space between the images */
+    border-radius: 20px;
+    padding: 10px 10px;
+    aspect-ratio: 1 / 1.2;                          /* Keeps the box square */
+
+}
+
+#Maharast, #Gujrat, #Bangal, #SouthIndian, #Punjab, #Rajasthan{
+    font-size: xx-large;
+}
+
+#Cpic1, #Cpic2, #Cpic3, #Cpic4, #Cpic5, #Cpic6 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;                /* Automatically adjusts the height to keep aspect ratio */
+    border: 2px solid white;
+    margin: 10px;  
+    margin-top: 10px;             /* Provides space between the images */
+    border-radius: 20px;
+    aspect-ratio: 1 / 1;        /* Keeps the box square */
+    display: flex;
+    justify-content: center;   /* Centers the text/content inside the div */
+    align-items: flex-end;      /* Positions the text at the bottom */
+    flex-direction: column;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+
+#Cpic1{
+
+    background-image: url(C1.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+#Cpic2{
+
+    background-image: url(C2.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+#Cpic3{
+
+    background-image: url(C3.jpeg);
+    background-size: cover;
+    flex-direction: column;
+}
+
+#Cpic4{
+
+    background-image: url(C4.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+
+#Cpic5{
+
+    background-image: url(C5.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+
+#Cpic6{
+
+    background-image: url(C6.jpg);
+    background-size: cover;
+    flex-direction: column;
+}
+
+#Ctext1, #Ctext2, #Ctext3, #Ctext4, #Ctext5, #Ctext6{
+    text-align: start;
+    font-size: large;
+    font-weight: 100;
+    
+}
+#Cbox span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
