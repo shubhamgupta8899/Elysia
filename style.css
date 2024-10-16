@@ -37,7 +37,7 @@ header {
     
 }
 #logo{
-
+        
     height: 110%;
     width: 160%;
     border-radius: 50%;
@@ -268,6 +268,7 @@ p{
     justify-content: start;
     flex-direction: column;
     width: 100%;
+    background-color: #c75b7a;
 
 }
 
@@ -356,12 +357,15 @@ p{
 }
 
 /* Cultural content */
+
 #culturalcontent{
 
     display: flex;
     justify-content: start;
     flex-direction: column;
     width: 100%;
+    margin-top: 20px;
+    background-color: #c75b7a;
 
 }
 
@@ -468,6 +472,100 @@ p{
 #Cbox span{
     font-size: 20px;
     font-weight: 700;
+}
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #3498db;
+}
+
+.footer-section.contact ul li i,
+.footer-section.social ul li i {
+    margin-right: 10px;
+}
+
+.footer-section.social ul {
+    display: flex;
+}
+
+.footer-section.social ul li {
+    margin-right: 15px;
+}
+
+.footer-section.social ul li a {
+    font-size: 24px;
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #34495e;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #bdc3c7;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 30px;
+    }
 }
 
 
